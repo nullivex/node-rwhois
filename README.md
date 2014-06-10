@@ -1,4 +1,6 @@
 node-rwhois
 ===========
 
-Node rWHOIS library that implements the ARIN rWHOIS protocol in a Sinatra style API
+Node RWhois library that implements the ARIN RWhois protocol to serve usage to ARIN
+
+Routing works similar to express (req,res)
