@@ -38,8 +38,7 @@
     "object-manage": "^0.7.1",
     "redis": "^0.10.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   }

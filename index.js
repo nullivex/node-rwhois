@@ -1,5 +1,6 @@
 'use strict';
 
+
 /**
  * Main module
  * @type {exports}
