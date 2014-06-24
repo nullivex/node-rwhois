@@ -1,10 +1,9 @@
 'use strict';
 var rwhois = require('./index')
-var app = rwhois({debug: true})
+var app = rwhois({debug: false})
 
 //handle ipv4 queries
 app.query('ipv4',function(req,next){
-  console.log(req)
   next(null,[
     'network:ID:NET-IBMNET-3.0.0.0/0',
     'network:Auth-Area:0.0.0.0/0',
