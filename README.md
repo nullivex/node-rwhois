@@ -102,6 +102,9 @@ We are planning on adding some helpers to aid in query resolution.
 
 ## Changelog
 
+### 0.2.0
+* Upgraded to object-manage 0.8.x
+
 ### 0.1.1
 * Fixed bug that would not close the server connection when the server was done sending data
 

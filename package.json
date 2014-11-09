@@ -2,7 +2,7 @@
   "author": "eSited Dev <dev@esited.com>",
   "name": "rwhois",
   "description": "RWhois protocol implementation written in Node.js",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "http://esited.com/",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "object-manage": "^0.7.1"
+    "object-manage": "0.8.x"
   },
   "devDependencies": {},
   "scripts": {
