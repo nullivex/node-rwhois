@@ -61,8 +61,6 @@ app.listen()
 ```js
 {
   author: 'ESITED LLC',
-  debug: false,
-  info: true,
   protocol: '1.5',
   capabilities: '003fff:00',
   port: 4321,
@@ -77,7 +75,6 @@ Options can be overridden at instantiation time.
 Example
 ```js
 var app = rwhois({
-  debug: true,
   author: 'My Company',
   port: 1234,
   hostname: 'whois.mycompany.net'
@@ -86,8 +83,6 @@ var app = rwhois({
 
 ### Properties
 
-* debug - Enable debug messaging in the console.
-* info - Enable info level messages in the console
 * author - The author supplied in the banner back to the client
 * protcol - The advertised protocol of the server
 * capabilities - The advertised capabilities of the server
