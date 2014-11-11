@@ -1,6 +1,6 @@
 'use strict';
 var rwhois = require('./index')
-var app = rwhois({debug: true})
+var app = rwhois()
 
 //handle ipv4 queries
 app.query('ipv4',function(req,next){

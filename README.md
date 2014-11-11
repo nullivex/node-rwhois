@@ -102,6 +102,12 @@ We are planning on adding some helpers to aid in query resolution.
 
 ## Changelog
 
+### 0.3.0
+* Overhauled core package
+* Added debug support through the `debug` package
+* Extracted RWhoisConnection and RWhois libraries separately
+* Implemented `linestream` to handle the incoming protocol parsing
+
 ### 0.2.0
 * Upgraded to object-manage 0.8.x
 

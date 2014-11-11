@@ -5,4 +5,4 @@
  * Main module
  * @type {exports}
  */
-module.exports = require('./lib/rwhois')
+module.exports = require('./lib/RWhois')
